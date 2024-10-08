@@ -9,13 +9,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <link type="text/css" rel="stylesheet" href="assets/css/app.css" />
+    <script type="text/javascript" src="assets/js/main.js" defer></script>
   </head>
-  <body class="bg-brand-bg-base text-brand-text-base">
-    <div class="w-full h-screen flex flex-col">
+  <body class="grid grid-rows-[1fr_auto] h-screen bg-brand-bg-base text-brand-text-base">
+    <main class="w-full flex flex-col">
       <div class="mx-auto py-20 flex flex-col gap-8">
         <img class="w-32 mx-auto" src="assets/svgs/logo.svg" alt="kurohana project logo">
         <img class="w-72" src="assets/svgs/title.svg" alt="kurohana project title">
       </div>
-    </div>
+    </main>
+    <footer class="flex items-center justify-center">
+      <div class="py-8 px-4">
+        <p>&copy; <span id="currentYear"></span> kurohanaproject</p>
+      </div>
+    </footer>
   </body>
 </html>
